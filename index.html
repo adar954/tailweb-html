@@ -1,0 +1,486 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>eGov Foundation</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <div class="container-xl d-flex justify-content-end align-items-center gap-3">
+      <a href="#" class="top-link"><i class="bi bi-person-circle me-1"></i>Lovshe</a>
+      <a href="#" class="top-link"><i class="bi bi-telephone me-1"></i>Contact us</a>
+      <div class="lang-switch">
+        <i class="bi bi-translate me-1"></i>ENG <i class="bi bi-chevron-down small"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg sticky-top egov-navbar" id="mainNavbar">
+    <div class="container-xl">
+      <!-- LOGO -->
+      <a class="navbar-brand" href="#">
+        <span class="brand-e">e</span><span class="brand-gov">GOV</span>
+        <span class="brand-tag">FOUNDATION</span>
+      </a>
+
+      <!-- Toggler -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Nav Links -->
+      <div class="collapse navbar-collapse" id="navbarMain">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+
+          <!-- About Us -->
+          <li class="nav-item dropdown">
+            <a class="nav-link egov-nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              About Us <i class="bi bi-chevron-down arrow-icon ms-1"></i>
+            </a>
+            <ul class="dropdown-menu egov-dropdown">
+              <li><a class="dropdown-item" href="#"><i class="bi bi-building me-2"></i>Who We Are</a></li>
+              <li><a class="dropdown-item" href="#"><i class="bi bi-flag me-2"></i>Mission &amp; Vision</a></li>
+              <li><a class="dropdown-item" href="#"><i class="bi bi-people me-2"></i>Leadership Team</a></li>
+              <li><a class="dropdown-item" href="#"><i class="bi bi-clock-history me-2"></i>Our Journey</a></li>
+              <li><a class="dropdown-item" href="#"><i class="bi bi-award me-2"></i>Awards &amp; Recognition</a></li>
+            </ul>
+          </li>
+
+          <!-- Areas of Work -->
+          <li class="nav-item dropdown">
+            <a class="nav-link egov-nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Areas of work <i class="bi bi-chevron-down arrow-icon ms-1"></i>
+            </a>
+            <ul class="dropdown-menu egov-dropdown">
+              <li><a class="dropdown-item" href="#"><i class="bi bi-heart-pulse me-2"></i>Public Health</a></li>
+              <li><a class="dropdown-item" href="#"><i class="bi bi-cash-stack me-2"></i>Public Finance</a></li>
+              <li><a class="dropdown-item" href="#"><i class="bi bi-buildings me-2"></i>Local Governance</a></li>
+              <li><a class="dropdown-item" href="#"><i class="bi bi-droplet me-2"></i>Water &amp; Sanitation</a></li>
+              <li><a class="dropdown-item" href="#"><i class="bi bi-mortarboard me-2"></i>Urban Development</a></li>
+            </ul>
+          </li>
+
+          <!-- Products & Solutions -->
+          <li class="nav-item dropdown">
+            <a class="nav-link egov-nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Products &amp; Solutions <i class="bi bi-chevron-down arrow-icon ms-1"></i>
+            </a>
+            <div class="dropdown-menu egov-dropdown mega-menu p-0">
+              <div class="row g-0">
+                <div class="col-md-4 mega-col">
+                  <h6 class="mega-head">Platforms</h6>
+                  <a class="dropdown-item" href="#"><i class="bi bi-grid me-2"></i>DIGIT Platform</a>
+                  <a class="dropdown-item" href="#"><i class="bi bi-cloud me-2"></i>Health Stack</a>
+                  <a class="dropdown-item" href="#"><i class="bi bi-bank me-2"></i>Finance Suite</a>
+                </div>
+                <div class="col-md-4 mega-col">
+                  <h6 class="mega-head">Solutions</h6>
+                  <a class="dropdown-item" href="#"><i class="bi bi-person-check me-2"></i>Urban Services</a>
+                  <a class="dropdown-item" href="#"><i class="bi bi-tree me-2"></i>Environment</a>
+                  <a class="dropdown-item" href="#"><i class="bi bi-shield-check me-2"></i>Social Protection</a>
+                </div>
+                <div class="col-md-4 mega-col mega-cta-col">
+                  <div class="mega-promo">
+                    <div class="promo-icon"><i class="bi bi-rocket-takeoff"></i></div>
+                    <p>Open-source tech-for-good platform powering governments</p>
+                    <a href="#" class="btn btn-sm btn-egov-outline mt-2">Explore DIGIT &rarr;</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <!-- Our Platform -->
+          <li class="nav-item dropdown">
+            <a class="nav-link egov-nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Our Platform <i class="bi bi-chevron-down arrow-icon ms-1"></i>
+            </a>
+            <ul class="dropdown-menu egov-dropdown">
+              <li><a class="dropdown-item" href="#"><i class="bi bi-diagram-3 me-2"></i>Architecture</a></li>
+              <li><a class="dropdown-item" href="#"><i class="bi bi-code-slash me-2"></i>Open Source</a></li>
+              <li><a class="dropdown-item" href="#"><i class="bi bi-plug me-2"></i>Integrations</a></li>
+              <li><a class="dropdown-item" href="#"><i class="bi bi-file-earmark-code me-2"></i>Documentation</a></li>
+            </ul>
+          </li>
+
+          <!-- Ecosystem -->
+          <li class="nav-item dropdown">
+            <a class="nav-link egov-nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Ecosystem <i class="bi bi-chevron-down arrow-icon ms-1"></i>
+            </a>
+            <ul class="dropdown-menu egov-dropdown">
+              <li><a class="dropdown-item" href="#"><i class="bi bi-handshake me-2"></i>Partners</a></li>
+              <li><a class="dropdown-item" href="#"><i class="bi bi-globe me-2"></i>Government Bodies</a></li>
+              <li><a class="dropdown-item" href="#"><i class="bi bi-heart me-2"></i>NGOs &amp; Civil Society</a></li>
+              <li><a class="dropdown-item" href="#"><i class="bi bi-lightbulb me-2"></i>Startups &amp; Innovators</a></li>
+            </ul>
+          </li>
+
+          <!-- Resources -->
+          <li class="nav-item dropdown">
+            <a class="nav-link egov-nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Resources <i class="bi bi-chevron-down arrow-icon ms-1"></i>
+            </a>
+            <ul class="dropdown-menu egov-dropdown">
+              <li><a class="dropdown-item" href="#"><i class="bi bi-file-text me-2"></i>Articles</a></li>
+              <li><a class="dropdown-item" href="#"><i class="bi bi-journal-bookmark me-2"></i>Whitepapers</a></li>
+              <li><a class="dropdown-item" href="#"><i class="bi bi-briefcase me-2"></i>Case Studies</a></li>
+              <li><a class="dropdown-item" href="#"><i class="bi bi-graph-up me-2"></i>Strategy Papers</a></li>
+              <li><a class="dropdown-item" href="#"><i class="bi bi-newspaper me-2"></i>News &amp; Media</a></li>
+              <li><a class="dropdown-item" href="#"><i class="bi bi-camera-video me-2"></i>Videos</a></li>
+              <li><a class="dropdown-item" href="#"><i class="bi bi-envelope me-2"></i>Newsletter</a></li>
+            </ul>
+          </li>
+
+          <!-- Search -->
+          <li class="nav-item ms-lg-2">
+            <a class="nav-link egov-nav-link search-icon-link" href="#"><i class="bi bi-search fs-5"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero-section">
+    <div class="hero-bg-blob blob-1"></div>
+    <div class="hero-bg-blob blob-2"></div>
+    <div class="container-xl">
+      <div class="row align-items-center" style="min-height: 85vh; padding: 60px 0;">
+        <div class="col-lg-6 hero-left">
+          <p class="hero-eyebrow">20 years of digital transformation in public service delivery</p>
+          <h1 class="hero-title">It's <strong>possible.</strong></h1>
+          <p class="hero-desc">Catalysts, ecosystem enablers, solutions builders, et al. We're driven by the power of open digital infrastructure and ecosystems to enable governments deliver accessible, inclusive and transparent services to every citizen.</p>
+          <div class="hero-btns mt-4 d-flex flex-wrap gap-3">
+            <a href="#" class="btn btn-egov">Our Approach</a>
+            <a href="#" class="btn btn-egov-ghost">Our Impact</a>
+          </div>
+        </div>
+        <div class="col-lg-6 text-center mt-5 mt-lg-0">
+          <div class="hero-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=620&q=80" alt="Citizens" class="hero-img"/>
+            <div class="hero-float-badge badge-top">
+              <i class="bi bi-people-fill me-2"></i>1.1 Billion+ Citizens
+            </div>
+            <div class="hero-float-badge badge-bottom">
+              <i class="bi bi-globe2 me-2"></i>50+ Partners Worldwide
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STATS BANNER ===== -->
+  <section class="stats-banner">
+    <div class="container-xl">
+      <div class="row align-items-center gy-4">
+        <div class="col-lg-6">
+          <div class="big-number">1,000,000,100+</div>
+        </div>
+        <div class="col-lg-6">
+          <p class="stats-sub-text">Citizens making public services through eGov's Digital Public Goods (DPG)</p>
+          <div class="row mt-4 g-3">
+            <div class="col-6">
+              <div class="stat-pill">
+                <div class="stat-pill-val">1.1 Billion+</div>
+                <div class="stat-pill-lbl">Public services delivered</div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="stat-pill">
+                <div class="stat-pill-val">50+</div>
+                <div class="stat-pill-lbl">State, national governments and NGOs</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BOLD APPROACHES ===== -->
+  <section class="bold-section">
+    <div class="container-xl">
+      <div class="row g-4 align-items-stretch">
+        <div class="col-lg-4 d-flex flex-column justify-content-center">
+          <p class="section-eyebrow-sm">Big problems need</p>
+          <h2 class="bold-section-title">bold approaches</h2>
+          <div class="bold-tabs mt-4 d-flex flex-column gap-2">
+            <button class="bold-tab active">Public Health</button>
+            <button class="bold-tab">Public Finance</button>
+            <button class="bold-tab">Local Governance</button>
+            <button class="bold-tab">Water &amp; Sanitations</button>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="bold-card blue-bold-card">
+            <div class="bold-card-num">210+</div>
+            <p class="bold-card-desc">Cities and towns in Telangana served through digital public health platforms</p>
+            <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400&q=80" alt="Health" class="bold-card-img"/>
+            <a href="#" class="btn btn-sm btn-bold-outline mt-3">Read More</a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="bold-card teal-bold-card">
+            <div class="bold-card-num">2 Bn</div>
+            <p class="bold-card-desc">Transactions powered annually through open finance infrastructure</p>
+            <img src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=400&q=80" alt="Finance" class="bold-card-img"/>
+            <a href="#" class="btn btn-sm btn-bold-outline mt-3">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SUSTAINING CHANGE ===== -->
+  <section class="sustaining-section">
+    <div class="container-xl text-center">
+      <p class="section-eyebrow-sm">20 years of reimagining for citizens and</p>
+      <h2 class="sustain-title">sustaining change</h2>
+      <p class="sustain-desc mx-auto">Technology is powerful, but outcomes are placed at the people it serves. Enhancing the quality of life for every citizen. To foster sustainable impact at scale, the collective energy of local networks to solve local problems needs to be tapped into. Our partners &amp; networks bring this collective energy to life. For the ecosystem already around us, we seek to facilitate and amplify their efforts. For 20 years, we've been turning small steps into lasting, meaningful change so that no citizen is left behind.</p>
+      <div class="row justify-content-center g-4 mt-4">
+        <div class="col-md-5">
+          <div class="story-card">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&q=80" alt="Story" class="story-img"/>
+            <div class="story-overlay">
+              <p class="story-text">Transforming public services at the grassroots level with open technology</p>
+              <a href="#" class="story-link">Read More <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="story-card">
+            <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=500&q=80" alt="Story 2" class="story-img"/>
+            <div class="story-overlay">
+              <p class="story-text">Digital inclusion for every last mile citizen across India</p>
+              <a href="#" class="story-link">Read More <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn btn-egov mt-5">About Us</a>
+    </div>
+  </section>
+
+  <!-- ===== DIGIT PLATFORM ===== -->
+  <section class="digit-section">
+    <div class="container-xl">
+      <div class="row align-items-center gy-5">
+        <div class="col-lg-6">
+          <div class="digit-brand mb-3">
+            <span class="digit-star">✦</span> DIGIT
+            <span class="digit-by">by eGov Foundation</span>
+          </div>
+          <p class="digit-eyebrow">Our open source</p>
+          <h2 class="digit-title">technology-for-good<br/>platform</h2>
+          <p class="digit-desc">DIGIT — short for Digital Infrastructure for Governance, Impact &amp; Transformation — is an open-source Digital Public Good (DPG) for governments and civil society organisations to create, deploy and run digital systems for public services, transparently and at scale.</p>
+          <a href="#" class="btn btn-digit mt-3">Explore the platform</a>
+        </div>
+        <div class="col-lg-6 text-center">
+          <div class="digit-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=540&q=80" alt="DIGIT User" class="digit-img"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LATEST AT EGOV ===== -->
+  <section class="latest-section">
+    <div class="container-xl">
+      <h2 class="latest-title mb-4">Latest at <span class="egov-green-text">eGov</span></h2>
+      <div class="filter-scroll mb-4">
+        <button class="filter-tab active">What's New</button>
+        <button class="filter-tab">Articles</button>
+        <button class="filter-tab">Whitepapers</button>
+        <button class="filter-tab">Case Studies</button>
+        <button class="filter-tab">Strategy Papers</button>
+        <button class="filter-tab">News &amp; Media</button>
+        <button class="filter-tab">Videos</button>
+        <button class="filter-tab">Newsletter</button>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="news-card">
+            <div class="news-img-wrap">
+              <img src="https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=500&q=80" alt="News" class="news-img"/>
+            </div>
+            <div class="news-body">
+              <span class="news-tag">Urban Governance</span>
+              <h5 class="news-title">State-led Urban Digital Transformation</h5>
+              <p class="news-meta"><i class="bi bi-person me-1"></i>Suresh Patel &nbsp;&bull;&nbsp; <i class="bi bi-calendar me-1"></i>14 Oct, 2025 &nbsp;&bull;&nbsp; <i class="bi bi-clock me-1"></i>5 min</p>
+              <ul class="news-bullets">
+                <li>State Governments deploying 1,000+ platforms</li>
+                <li>Cities covered: 350+ across 12 states</li>
+                <li>Services digitised: water, taxes, permits</li>
+              </ul>
+              <a href="#" class="news-read-link">Read More <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="news-card news-dot-card">
+            <div class="dot-banner">
+              <div class="dot-logo-text">dot</div>
+              <span class="dot-sub">THE DIGIT QUARTERLY NEWSLETTER</span>
+            </div>
+            <div class="news-body">
+              <h5 class="news-title">DOT — A DIGIT QUARTERLY NEWSLETTER</h5>
+              <p class="news-meta"><i class="bi bi-person me-1"></i>Suresh Patel &nbsp;&bull;&nbsp; <i class="bi bi-calendar me-1"></i>20 Oct, 2025 &nbsp;&bull;&nbsp; <i class="bi bi-clock me-1"></i>4 min</p>
+              <p class="news-excerpt">Catch up on the latest stories, launches, and partnerships from the DIGIT ecosystem across India and the globe.</p>
+              <a href="#" class="news-read-link">Read More <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="news-card">
+            <div class="news-img-year">
+              <span>2025</span>
+            </div>
+            <div class="news-body">
+              <span class="news-tag tag-green">Impact Report</span>
+              <h5 class="news-title">DOT 2025 | DOT STORIES OF PARTNERSHIPS &amp; IMPACT</h5>
+              <p class="news-meta"><i class="bi bi-person me-1"></i>Suresh Patel &nbsp;&bull;&nbsp; <i class="bi bi-calendar me-1"></i>31 Oct, 2025 &nbsp;&bull;&nbsp; <i class="bi bi-clock me-1"></i>6 min</p>
+              <a href="#" class="news-read-link">Read More <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-5">
+        <a href="#" class="btn btn-egov">See All</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SUPPORTERS ===== -->
+  <section class="supporters-section">
+    <div class="container-xl">
+      <h2 class="supporters-heading text-center mb-5">Our <strong>Supporters</strong></h2>
+      <div class="supporters-row">
+        <div class="supporter-item">
+          <i class="bi bi-infinity fs-1"></i>
+          <span>Omidyar</span>
+        </div>
+        <div class="supporter-item">
+          <div class="text-center lh-1">
+            <div style="font-size:11px; font-weight:700; letter-spacing:2px;">MACARTHUR</div>
+            <div style="font-size:11px; font-weight:700; letter-spacing:2px;">FOUNDATION</div>
+          </div>
+        </div>
+        <div class="supporter-item">
+          <span class="tata-text">TATA TRUSTS</span>
+        </div>
+        <div class="supporter-item">
+          <i class="bi bi-shield-fill-check text-success me-2"></i>
+          <span>Sida</span>
+        </div>
+        <div class="supporter-item">
+          <i class="bi bi-tree-fill text-success me-2"></i>
+          <span>NatureVest</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="egov-footer">
+    <div class="container-xl">
+      <div class="row gy-5">
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-logo mb-3">
+            <span class="brand-e">e</span><span class="brand-gov">GOV</span>
+          </div>
+          <p class="footer-tagline">Catalysing digital transformation to enable public service delivery at scale across India and beyond.</p>
+          <div class="footer-socials mt-3">
+            <a href="#" class="footer-social-icon"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="footer-social-icon"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" class="footer-social-icon"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="footer-social-icon"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h6 class="footer-col-title">Useful Links</h6>
+          <ul class="footer-link-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Our Approach</a></li>
+            <li><a href="#">Our Impact</a></li>
+            <li><a href="#">DIGIT Sandbox</a></li>
+            <li><a href="#">Financials</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h6 class="footer-col-title">Products</h6>
+          <ul class="footer-link-list">
+            <li><a href="#">DIGIT Platform</a></li>
+            <li><a href="#">Health Stack</a></li>
+            <li><a href="#">Finance Suite</a></li>
+            <li><a href="#">Urban Services</a></li>
+            <li><a href="#">Open APIs</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h6 class="footer-col-title">Subscribe Now</h6>
+          <p class="footer-sub-desc">Receive regular updates of our monthly newsletter DOT — in your inbox.</p>
+          <div class="subscribe-wrap mt-3">
+            <input type="email" class="subscribe-input" placeholder="Your email address"/>
+            <button class="subscribe-btn"><i class="bi bi-send-fill"></i></button>
+          </div>
+        </div>
+      </div>
+      <hr class="footer-hr"/>
+      <div class="footer-bottom-row">
+        <p>&copy;2024, eGov. All Rights Reserved</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms and Conditions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Navbar scroll effect
+    const navbar = document.getElementById('mainNavbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    // Rotate chevron arrow on dropdown open/close
+    document.querySelectorAll('.nav-item.dropdown').forEach(item => {
+      item.addEventListener('show.bs.dropdown', () => {
+        item.querySelector('.arrow-icon')?.classList.add('rotated');
+      });
+      item.addEventListener('hide.bs.dropdown', () => {
+        item.querySelector('.arrow-icon')?.classList.remove('rotated');
+      });
+    });
+
+    // Bold tabs
+    document.querySelectorAll('.bold-tab').forEach(tab => {
+      tab.addEventListener('click', function () {
+        document.querySelectorAll('.bold-tab').forEach(t => t.classList.remove('active'));
+        this.classList.add('active');
+      });
+    });
+
+    // Filter tabs
+    document.querySelectorAll('.filter-tab').forEach(tab => {
+      tab.addEventListener('click', function () {
+        document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
+        this.classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>
